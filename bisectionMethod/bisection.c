@@ -4,7 +4,7 @@
 // Define the quadratic equation: x^3 - 4x - 9
 float equation(float x)
 {
-    return (x * x * x) - (4 * x) - 9;
+    return (x * x * x) - (9* x) +1;
 }
 
 // Bisection method function
