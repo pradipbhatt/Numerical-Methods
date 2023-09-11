@@ -3,6 +3,7 @@
 int main()
 {
 
+    system("Cls");
     float x[100], y[100], xp, yp = 0.0, p;
     int i, j, n;
     system("cls");

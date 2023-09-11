@@ -1,7 +1,7 @@
 // Curve Fitting y = axb
 #include <stdio.h>
+#include <conio.h>
 #include <math.h>
-#include <stdlib.h>
 
 #define S 50
 
@@ -13,6 +13,7 @@ int main()
     system("cls");
 
     /* Input */
+    printf("This is fitting_Quadratic_first_form :\n ");
     printf("How many data points?\n");
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
@@ -41,5 +42,7 @@ int main()
 
     /* Displaying value of a and b */
     printf("Values are: a=%0.2f and b = %0.2f", a, b);
+
+    getch();
     return (0);
 }
